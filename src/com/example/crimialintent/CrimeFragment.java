@@ -38,6 +38,7 @@ public class CrimeFragment extends Fragment {
 		args.putSerializable(EXTRA_CRIME_ID, crimeId);
 		CrimeFragment fragment = new CrimeFragment();
 		fragment.setArguments(args);
+		
 		return fragment;
 	}
 	
